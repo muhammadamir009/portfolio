@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muhammad Amir - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-gradient sticky-top px-4">
+    <a class="navbar-brand fw-bold fs-4" href="#">Muhammad Amir</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+       
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section text-white text-center d-flex flex-column justify-content-center align-items-center">
+    <h1 class="display-4">Hi, I'm Muhammad Amir</h1>
+    <p class="lead">UI/UX Designer & Full Stack Developer</p>
+    <a href="#projects" class="btn btn-outline-light hero-btn mt-3">View Projects</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="container py-5" data-aos="fade-up">
+    <h2 class="text-center mb-4">About Me</h2>
+    <p class="text-center">I’m a full stack developer & designer with 2+ years of experience creating clean, responsive, and user-friendly websites and web apps. I specialize in PHP, MySQL, and UI/UX tools like Figma and Webflow.</p>
+  </section>
+
+  <!-- Skills -->
+   <section id="skills" class="bg-light py-5" data-aos="fade-up">
+  <div class="container">
+    <h2 class="text-center mb-4">Skills</h2>
+    <div class="row text-center">
+
+      <!-- Row 1 -->
+      <div class="col-md-3 mb-3 skill-box" data-aos="zoom-in" data-aos-delay="100">HTML/CSS</div>
+      <div class="col-md-3 mb-3 skill-box" data-aos="zoom-in" data-aos-delay="150">Front-End / Back-End</div>
+      <div class="col-md-3 mb-3 skill-box" data-aos="zoom-in" data-aos-delay="200">Database</div>
+      <div class="col-md-3 mb-3 skill-box" data-aos="zoom-in" data-aos-delay="250">PHP & MySQL</div>
+
+      <!-- Row 2 -->
+      <div class="col-md-3 mb-3 skill-box" data-aos="zoom-in" data-aos-delay="300">CodeIgniter 4</div>
+      <div class="col-md-3 mb-3 skill-box" data-aos="zoom-in" data-aos-delay="350">Web-Development</div>
+      <div class="col-md-3 mb-3 skill-box" data-aos="zoom-in" data-aos-delay="400">Web Application& Software Dev</div>
+      <div class="col-md-3 mb-3 skill-box" data-aos="zoom-in" data-aos-delay="450">UI/UX Design</div>
+
+      <!-- Row 3 -->
+      <div class="col-md-3 mb-3 skill-box" data-aos="zoom-in" data-aos-delay="500">Figma</div>
+      <div class="col-md-3 mb-3 skill-box" data-aos="zoom-in" data-aos-delay="550">App ui</div>
+      <div class="col-md-3 mb-3 skill-box" data-aos="zoom-in" data-aos-delay="600">Prototyping</div>
+      <div class="col-md-3 mb-3 skill-box" data-aos="zoom-in" data-aos-delay="650">User-Centered Design</div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects -->
+  <section id="projects" class="container py-5" data-aos="fade-up">
+    <h2 class="text-center mb-4">Projects</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-4 mb-4">
+        <a href="https://www.linkedin.com/in/muhammad-amir-b1864a271/" target="_blank" class="text-decoration-none">
+          <div class="card project-card h-100 shadow" data-aos="fade-up" data-aos-delay="200">
+            <img src="https://e7.pngegg.com/pngimages/214/910/png-clipart-learning-management-system-moodle-student-text-people-thumbnail.png" class="card-img-top" alt="Library System">
+            <div class="card-body">
+              <h5 class="card-title">Library Management System</h5>
+              <p class="card-text text-dark">Web-based system with user login, book tracking, and payment dashboard built using PHP & MySQL.</p>
+              <span class="btn btn-sm btn-outline-dark">View on LinkedIn</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Muhammad Amir. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, offset: 100, once: true });</script>
+</body>
+</html>
